@@ -43,16 +43,55 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
 // See ../../bower_components/reveal.js/css/theme/README.md
 // for further explanations on how reveal.js themes work.
 
+@import "compass/css3/transition";
+
 #vertical-progress {
-	li.past {
-		a:link, a:visited {
-			color: green;
+	width: 20%;
+	background: rgba(20, 20, 20, 0.5);
+	height: 100%;
+	position: relative;
+	z-index: 99;
+
+	#vertical-progress-bar {
+		width: 3px;
+		background: red;
+		position: absolute;
+		top: 0;
+		right: 0;
+		@include transition(all .5s);
+	}
+
+	#vertical-progress-bar-wrapper {
+		width: 3px;
+		background: black;
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+	}
+
+	ul {
+		height: 100%;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	li {
+		position: relative;
+		width: 100%;
+
+		&.past, &.active {
+			a:link, a:visited {
+				color: green;
+			}
 		}
 	}
 
-	li.active {
-		a:link, a:visited {
-			color: red;
-		}
+	a {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		text-align: right;
 	}
 }

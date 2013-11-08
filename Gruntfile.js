@@ -5,6 +5,10 @@ grunt.loadNpmTasks('grunt-contrib-compass');
 
   grunt.initConfig({
     watch: {
+      compass: {
+        files: ['css/source/theme.scss'],
+        tasks: ['compass']
+      },
       livereload: {
         options: {
           livereload: true
@@ -18,24 +22,12 @@ grunt.loadNpmTasks('grunt-contrib-compass');
       jshint: {
         files: ['js/*.js'],
         tasks: ['jshint']
-      },
-      sass: {
-        files: ['css/source/theme.scss'],
-        tasks: ['sass']
-      },
+      }
     },
-      compass: {                  // Task
-        css: {                   // Target
-          options: {              // Target options
-            sassDir: 'source',
-            cssDir: 'css'
-          }
-        }
-      },
-    sass: {
-      theme: {
-        files: {
-          'css/theme.css': 'css/source/theme.scss'
+    compass: {                  // Task
+      css: {                   // Target
+        options: {              // Target options
+          config: 'config.rb'
         }
       }
     },

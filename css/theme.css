@@ -6,6 +6,7 @@
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
+/* line 7, ../bower_components/reveal.js/css/theme/template/theme.scss */
 body {
   background: #1c1e20;
   background: -moz-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
@@ -14,23 +15,29 @@ body {
   background: -o-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
   background: -ms-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
   background: radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background-color: #2b2b2b; }
+  background-color: #2b2b2b;
+}
 
+/* line 12, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal {
   font-family: "Lato", sans-serif;
   font-size: 36px;
   font-weight: 200;
   letter-spacing: -0.02em;
-  color: #eeeeee; }
+  color: #eeeeee;
+}
 
+/* line 20, ../bower_components/reveal.js/css/theme/template/theme.scss */
 ::selection {
   color: white;
   background: #ff5e99;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
 /*********************************************
  * HEADERS
  *********************************************/
+/* line 35, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -43,14 +50,18 @@ body {
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
 
+/* line 47, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal h1 {
-  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
 
 /*********************************************
  * LINKS
  *********************************************/
+/* line 56, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal a:not(.image) {
   color: #13daec;
   text-decoration: none;
@@ -58,20 +69,26 @@ body {
   -moz-transition: color .15s ease;
   -ms-transition: color .15s ease;
   -o-transition: color .15s ease;
-  transition: color .15s ease; }
+  transition: color .15s ease;
+}
 
+/* line 66, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal a:not(.image):hover {
   color: #71e9f4;
   text-shadow: none;
-  border: none; }
+  border: none;
+}
 
+/* line 73, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .roll span:after {
   color: #fff;
-  background: #0d99a5; }
+  background: #0d99a5;
+}
 
 /*********************************************
  * IMAGES
  *********************************************/
+/* line 83, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
@@ -81,59 +98,130 @@ body {
   -moz-transition: all .2s linear;
   -ms-transition: all .2s linear;
   -o-transition: all .2s linear;
-  transition: all .2s linear; }
+  transition: all .2s linear;
+}
 
+/* line 97, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
   border-color: #13daec;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
+/* line 110, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #13daec; }
+  border-right-color: #13daec;
+}
 
+/* line 115, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #13daec; }
+  border-left-color: #13daec;
+}
 
+/* line 120, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #13daec; }
+  border-bottom-color: #13daec;
+}
 
+/* line 125, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #13daec; }
+  border-top-color: #13daec;
+}
 
+/* line 129, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #71e9f4; }
+  border-right-color: #71e9f4;
+}
 
+/* line 133, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #71e9f4; }
+  border-left-color: #71e9f4;
+}
 
+/* line 137, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #71e9f4; }
+  border-bottom-color: #71e9f4;
+}
 
+/* line 141, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #71e9f4; }
+  border-top-color: #71e9f4;
+}
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
+/* line 150, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .progress {
-  background: rgba(0, 0, 0, 0.2); }
+  background: rgba(0, 0, 0, 0.2);
+}
 
+/* line 153, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .progress span {
   background: #13daec;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
 
-#vertical-progress li.past a:link, #vertical-progress li.past a:visited {
-  color: green; }
-#vertical-progress li.active a:link, #vertical-progress li.active a:visited {
-  color: red; }
+/* line 48, source/theme.scss */
+#vertical-progress {
+  width: 20%;
+  background: rgba(20, 20, 20, 0.5);
+  height: 100%;
+  position: relative;
+  z-index: 99;
+}
+/* line 55, source/theme.scss */
+#vertical-progress #vertical-progress-bar {
+  width: 3px;
+  background: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 64, source/theme.scss */
+#vertical-progress #vertical-progress-bar-wrapper {
+  width: 3px;
+  background: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+/* line 73, source/theme.scss */
+#vertical-progress ul {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+/* line 80, source/theme.scss */
+#vertical-progress li {
+  position: relative;
+  width: 100%;
+}
+/* line 85, source/theme.scss */
+#vertical-progress li.past a:link, #vertical-progress li.past a:visited, #vertical-progress li.active a:link, #vertical-progress li.active a:visited {
+  color: green;
+}
+/* line 91, source/theme.scss */
+#vertical-progress a {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
