@@ -26,23 +26,11 @@
             }
         }
     ],
-    {
-        "filename": "intro.html",
-        "attr": {
-            "data-background": "images/bg1.jpg"
-        }
-    },
     [
         {
-            "filename": "whats-your-story.html",
+            "filename": "intro.html",
             "attr": {
-                "data-background": "images/bg6.jpg"
-            }
-        },
-        {
-            "filename": "some-of-our-stories.html",
-            "attr": {
-                "data-background": "images/bg6.jpg"
+                "data-background": "images/bg1.jpg"
             }
         },
         {
@@ -54,31 +42,8 @@
         {
             "filename": "green-giraffe.html",
             "attr": {
-                "data-background": "images/bg7.jpg"
-            }
-        },
-        {
-            "filename": "atechpro-intro.html",
-            "attr": {
-                "data-background": "images/bg8.jpg"
-            }
-        },
-        {
-            "filename": "atechpro.html",
-            "attr": {
-                "data-background": "images/bg8.jpg"
-            }
-        },
-        {
-            "filename": "inbraken-in-uw-buurt-intro.html",
-            "attr": {
-                "data-background": "images/bg9.jpg"
-            }
-        },
-        {
-            "filename": "inbraken-in-uw-buurt.html",
-            "attr": {
-                "data-background": "images/bg9.jpg"
+                "data-background": "images/bg7.jpg",
+	            "data-state": "collapse-progress"
             }
         },
         {
@@ -90,15 +55,79 @@
         {
             "filename": "human-trafficking.html",
             "attr": {
-                "data-background": "images/bg10.jpg"
+                "data-background": "images/bg10.jpg",
+	            "data-state": "collapse-progress"                
+            }
+        },
+        {
+            "filename": "inbraken-in-uw-buurt-intro.html",
+            "attr": {
+                "data-background": "images/bg9.jpg"
+            }
+        },
+        {
+            "filename": "inbraken-in-uw-buurt.html",
+            "attr": {
+                "data-background": "images/bg9.jpg",
+                "data-state": "collapse-progress"
             }
         }
     ],
-    "qgis-shapefiles.html",
-    "collecting-data.html",
-    "tilemill.html",
-    "hosting.html",
-    "drupal-mapping-modules.html",
-    "leaflet.html",
-    "slide-title.html"
+    {
+        "filename": "whats-your-story.html",
+        "attr": {
+            "data-background": "images/bg6.jpg"
+        }
+    },
+    {
+        "filename": "collecting-data.html",
+        "attr": {
+            "data-background": "images/bg11.jpg"
+        }
+    },
+    {
+        "filename": "qgis-shapefiles.html",
+        "attr": {
+            "data-background": "images/bg12.jpg"
+        }
+    },
+    [
+	    {
+	        "filename": "tilemill.html",
+	        "attr": {
+	            "data-background": "images/bg13.png"
+	        }
+	    },
+	    {
+	        "filename": "tilemill-2.html",
+	        "attr": {
+	            "data-background": "images/bg13.png",
+	            "data-state": "collapse-progress"
+	        }
+	    }
+	],
+    {
+        "filename": "hosting.html",
+        "attr": {
+            "data-background": "images/bg14.jpg"
+        }
+    },
+    {
+        "filename": "drupal-mapping-modules.html",
+        "attr": {
+            "data-background": "images/bg15.jpg"
+        }
+    },
+    {
+        "filename": "leaflet.html",
+        "attr": {
+            "data-background": "images/bg17.jpg"
+        }
+    },
+    {
+        "filename": "questions.html",
+        "attr": {
+            "data-background": "images/bg16.jpg"
+        }
+    }
 ]

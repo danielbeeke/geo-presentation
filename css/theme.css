@@ -1749,29 +1749,29 @@ h1, h2, h3, h4 {
   font-weight: 200;
 }
 
-/* line 1672, source/theme.scss */
+/* line 1671, source/theme.scss */
 h1 {
   font-size: 11em;
 }
 
-/* line 1676, source/theme.scss */
+/* line 1675, source/theme.scss */
 h2 {
   font-size: 6em;
   color: #ffe632;
 }
 
-/* line 1682, source/theme.scss */
+/* line 1681, source/theme.scss */
 body {
   color: white !important;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 1688, source/theme.scss */
+/* line 1687, source/theme.scss */
 p {
   font-size: 50px;
 }
 
-/* line 1692, source/theme.scss */
+/* line 1691, source/theme.scss */
 #vertical-progress {
   width: 20%;
   background: rgba(0, 0, 0, 0.5);
@@ -1786,7 +1786,7 @@ p {
   -o-transition: all 0.4s;
   transition: all 0.4s;
 }
-/* line 1701, source/theme.scss */
+/* line 1700, source/theme.scss */
 #vertical-progress #vertical-progress-bar {
   width: 3px;
   background: #ffe632;
@@ -1798,7 +1798,7 @@ p {
   -o-transition: height 0.4s;
   transition: height 0.4s;
 }
-/* line 1710, source/theme.scss */
+/* line 1709, source/theme.scss */
 #vertical-progress #vertical-progress-bar-wrapper {
   width: 3px;
   background: black;
@@ -1807,14 +1807,14 @@ p {
   right: 0;
   height: 100%;
 }
-/* line 1719, source/theme.scss */
+/* line 1718, source/theme.scss */
 #vertical-progress ul {
   height: 100%;
   padding: 0;
   margin: 0;
   width: 100%;
 }
-/* line 1726, source/theme.scss */
+/* line 1725, source/theme.scss */
 #vertical-progress a {
   position: absolute;
   -webkit-transition: all 0.4s 0;
@@ -1830,7 +1830,7 @@ p {
   color: #888888;
   text-decoration: none;
 }
-/* line 1739, source/theme.scss */
+/* line 1738, source/theme.scss */
 #vertical-progress a .dot {
   position: absolute;
   -webkit-box-sizing: border-box;
@@ -1857,7 +1857,7 @@ p {
   -moz-box-shadow: 0 0 10px rgba(10, 10, 10, 0.8);
   box-shadow: 0 0 10px rgba(10, 10, 10, 0.8);
 }
-/* line 1755, source/theme.scss */
+/* line 1754, source/theme.scss */
 #vertical-progress a .inner-dot {
   position: relative;
   display: block;
@@ -1869,12 +1869,12 @@ p {
   -o-transition: height 0.4s 0;
   transition: height 0.4s 0;
 }
-/* line 1765, source/theme.scss */
+/* line 1764, source/theme.scss */
 #vertical-progress li {
   position: relative;
   width: 100%;
 }
-/* line 1770, source/theme.scss */
+/* line 1769, source/theme.scss */
 #vertical-progress li.past a:link, #vertical-progress li.past a:visited, #vertical-progress li.active a:link, #vertical-progress li.active a:visited {
   -webkit-transition: all 0.4s;
   -webkit-transition-delay: 0.4s;
@@ -1883,7 +1883,7 @@ p {
   transition: all 0.4s 0.4s;
   color: #ffe632;
 }
-/* line 1775, source/theme.scss */
+/* line 1774, source/theme.scss */
 #vertical-progress li.past a:link .dot, #vertical-progress li.past a:visited .dot, #vertical-progress li.active a:link .dot, #vertical-progress li.active a:visited .dot {
   border-color: #ffe632;
   -webkit-transition: border 0.4s;
@@ -1892,7 +1892,7 @@ p {
   -o-transition: border 0.4s 0.4s;
   transition: border 0.4s 0.4s;
 }
-/* line 1780, source/theme.scss */
+/* line 1779, source/theme.scss */
 #vertical-progress li.past a:link .inner-dot, #vertical-progress li.past a:visited .inner-dot, #vertical-progress li.active a:link .inner-dot, #vertical-progress li.active a:visited .inner-dot {
   -webkit-transition: height 0.4s;
   -webkit-transition-delay: 0.4s;
@@ -1902,7 +1902,7 @@ p {
   height: 100%;
 }
 
-/* line 1789, source/theme.scss */
+/* line 1788, source/theme.scss */
 html:not(.collapse-progress):not(.hide-progress) .reveal .slides {
   width: 60% !important;
   -webkit-box-sizing: border-box;
@@ -1915,13 +1915,17 @@ html:not(.collapse-progress):not(.hide-progress) .reveal .slides {
   -o-transform: translateX(none);
   transform: translateX(none);
 }
-/* line 1795, source/theme.scss */
+/* line 1794, source/theme.scss */
 html:not(.collapse-progress):not(.hide-progress) .reveal .slides section {
   text-align: left;
   left: 0;
 }
 
-/* line 1802, source/theme.scss */
+/* line 1801, source/theme.scss */
+html.collapse-progress section {
+  text-align: left;
+}
+/* line 1804, source/theme.scss */
 html.collapse-progress #vertical-progress {
   -webkit-transform: translateX(-100%);
   -moz-transform: translateX(-100%);
@@ -1931,11 +1935,11 @@ html.collapse-progress #vertical-progress {
   left: 30px;
 }
 
-/* line 1809, source/theme.scss */
+/* line 1811, source/theme.scss */
 html.hide-progress section {
   text-align: left;
 }
-/* line 1812, source/theme.scss */
+/* line 1814, source/theme.scss */
 html.hide-progress #vertical-progress {
   -webkit-transform: translateX(-110%);
   -moz-transform: translateX(-110%);
@@ -1944,7 +1948,7 @@ html.hide-progress #vertical-progress {
   transform: translateX(-110%);
 }
 
-/* line 1817, source/theme.scss */
+/* line 1819, source/theme.scss */
 .by {
   float: left;
   width: 100%;
@@ -1954,7 +1958,7 @@ html.hide-progress #vertical-progress {
   margin-left: 10px;
 }
 
-/* line 1826, source/theme.scss */
+/* line 1828, source/theme.scss */
 .ampersand {
   font-size: 30px;
   font-family: 'Libre Baskerville';
@@ -1965,13 +1969,13 @@ html.hide-progress #vertical-progress {
   top: 7px;
 }
 
-/* line 1836, source/theme.scss */
+/* line 1838, source/theme.scss */
 h1 {
   margin: 40px 0;
   color: #ffe632;
 }
 
-/* line 1841, source/theme.scss */
+/* line 1843, source/theme.scss */
 .author {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1980,7 +1984,7 @@ h1 {
   zoom: 1;
   *display: inline;
 }
-/* line 1844, source/theme.scss */
+/* line 1846, source/theme.scss */
 .author .author-image {
   height: 70px;
   -webkit-border-radius: 50%;
@@ -1991,18 +1995,18 @@ h1 {
   float: left;
   margin-right: 20px;
 }
-/* line 1851, source/theme.scss */
+/* line 1853, source/theme.scss */
 .author .name {
   font-size: 40px;
   line-height: 70px;
 }
 
-/* line 1857, source/theme.scss */
+/* line 1859, source/theme.scss */
 .author + .author {
   margin-left: 40px;
 }
 
-/* line 1861, source/theme.scss */
+/* line 1863, source/theme.scss */
 .backgrounds:after {
   position: absolute;
   top: 0;
@@ -2010,24 +2014,24 @@ h1 {
   content: '';
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
 }
 
-/* line 1871, source/theme.scss */
+/* line 1873, source/theme.scss */
 .iframe-wrapper {
   -webkit-transform-origin: center center 50%;
   -moz-transform-origin: center center 50%;
   -ms-transform-origin: center center 50%;
   -o-transform-origin: center center 50%;
   transform-origin: center center 50%;
-  -webkit-transform: scale(1.4, 1.4);
-  -moz-transform: scale(1.4, 1.4);
-  -ms-transform: scale(1.4, 1.4);
-  -o-transform: scale(1.4, 1.4);
-  transform: scale(1.4, 1.4);
+  -webkit-transform: scale(1.6, 1.6);
+  -moz-transform: scale(1.6, 1.6);
+  -ms-transform: scale(1.6, 1.6);
+  -o-transform: scale(1.6, 1.6);
+  transform: scale(1.6, 1.6);
 }
 
-/* line 1876, source/theme.scss */
+/* line 1878, source/theme.scss */
 iframe {
   overflow: hidden;
   background: white;
