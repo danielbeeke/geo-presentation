@@ -7,10 +7,10 @@ var functions = {
 
 		// Itereate over each horizontal slide
 		$.each($('.reveal .slides > section'),function (index, slide) {
-			var title = $('h1, h2, h3', slide).text()
+			var title = $('h1:first, h2:first, h3:first', slide).text()
 
 			if (index > 0 && index < $('.reveal .slides > section').length - 1) {
-				output += '<li style="height:' + height + '%;" data-id="' + index + '"><a href="#/' + index + '">' + title + '</a></li>'
+				output += '<li style="height:' + height + '%;" data-id="' + index + '"><a href="#/' + index + '">' + title + '<span class="dot"><span class="inner-dot"></span></span></a></li>'
 			}
 		})
 
@@ -24,7 +24,11 @@ var functions = {
 	},
 	update: function (index) {
 		$('#vertical-progress li.active').removeClass('active').removeClass('past')
-		$('#vertical-progress li[data-id="' + index + '"]').addClass('active').prevAll().addClass('past')
+		$('#vertical-progress li[data-id="' + index + '"]').addClass('active')
+
+		for (var i = 0; i < index; i++) {
+			$('#vertical-progress li[data-id="' + i + '"]').addClass('past')
+		};
 
 		var newHeight = 100 / ($('.reveal .slides > section').length - 1) * index + '%'
 
