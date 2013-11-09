@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Interactive web maps</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <!--<link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">-->
+    
+        <link rel="stylesheet" href="css/theme.css" id="theme">
+    
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css" id="highlight-theme">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          document.write( '<link rel="stylesheet" href="bower_components/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-background="images/bg1.jpg" data-state="hide-progress" data-html="slides/index.html"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-background="images/bg2.jpg" data-html="slides/who-we-are.html"></section>
+
+
+                            
+                                
+    <section data-background="images/bg4.jpg" data-html="slides/michiel-kokee.html"></section>
+
+
+                            
+                                
+    <section data-background="images/bg5.jpg" data-html="slides/daniel-beeke.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-background="images/bg1.jpg" data-html="slides/intro.html"></section>
+
+
+                            
+                                
+    <section data-background="images/bg7.jpg" data-html="slides/green-giraffe-intro.html"></section>
+
+
+                            
+                                
+    <section data-background="images/bg7.jpg" data-state="collapse-progress" data-html="slides/green-giraffe.html"></section>
+
+
+                            
+                                
+    <section data-background="images/bg10.jpg" data-html="slides/human-trafficking-intro.html"></section>
+
+
+                            
+                                
+    <section data-background="images/bg10.jpg" data-state="collapse-progress" data-html="slides/human-trafficking.html"></section>
+
+
+                            
+                                
+    <section data-background="images/bg9.jpg" data-html="slides/inbraken-in-uw-buurt-intro.html"></section>
+
+
+                            
+                                
+    <section data-background="images/bg9.jpg" data-state="collapse-progress" data-html="slides/inbraken-in-uw-buurt.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-background="images/bg6.jpg" data-html="slides/whats-your-story.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/bg11.jpg" data-html="slides/collecting-data.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/bg12.jpg" data-html="slides/qgis-shapefiles.html"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-background="images/bg13.png" data-html="slides/tilemill.html"></section>
+
+
+                            
+                                
+    <section data-background="images/bg13.png" data-state="collapse-progress" data-html="slides/tilemill-2.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-background="images/bg14.jpg" data-html="slides/hosting.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/bg15.jpg" data-html="slides/drupal-mapping-modules.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/bg17.jpg" data-html="slides/leaflet.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/bg16.jpg" data-html="slides/questions.html"></section>
+
+
+                    
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: false,
+                history: true,
+                center: true,
+                overview: false,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/jquery/jquery.js'},
+                    { src: 'js/fonkel-reveal.js'},
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                ]
+            });
+        </script>
+
+    </body>
+
+</html>
