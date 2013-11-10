@@ -18,6 +18,10 @@ grunt.loadNpmTasks('grunt-contrib-compass');
       index: {
         files: ['templates/_index.html', 'templates/_section.html', 'slides/list.json'],
         tasks: ['buildIndex']
+      },
+      jshint: {
+        files: ['js/*.js'],
+        tasks: ['jshint']
       }
     },
     compass: {                  // Task
@@ -37,6 +41,12 @@ grunt.loadNpmTasks('grunt-contrib-compass');
           livereload: true
         }
       }
+    },
+    jshint: {
+      options: {
+        jshintrc: '.jshintrc'
+      },
+      all: ['js/*.js']
     },
     copy: {
       dist: {
@@ -75,7 +85,7 @@ grunt.loadNpmTasks('grunt-contrib-compass');
     });
     return grunt.file.write('index.html', html);
   });
-  grunt.registerTask('test', '*Lint* javascript and coffee files.', []);
+  grunt.registerTask('test', '*Lint* javascript and coffee files.', ['jshint']);
   grunt.registerTask('server', 'Run presentation locally and start watch process (living document).', ['buildIndex', 'compass', 'connect:livereload', 'watch']);
   grunt.registerTask('dist', 'Save presentation files to *dist* directory.', ['test', 'compass', 'buildIndex', 'copy']);
   return grunt.registerTask('default', ['test', 'server']);

@@ -1885,3 +1885,7 @@ iframe {
     @include transform-origin(center center);
     @include scale(0.8);
 }
+
+.reveal a:link, .reveal a:visited {
+	color: $color !important;
+}
