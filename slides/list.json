@@ -43,7 +43,7 @@
             "filename": "green-giraffe.html",
             "attr": {
                 "data-background": "images/bg7.jpg",
-	            "data-state": "collapse-progress"
+                "data-state": "collapse-progress"
             }
         },
         {
@@ -56,7 +56,7 @@
             "filename": "human-trafficking.html",
             "attr": {
                 "data-background": "images/bg10.jpg",
-	            "data-state": "collapse-progress"                
+                "data-state": "collapse-progress"
             }
         },
         {
@@ -92,26 +92,67 @@
         }
     },
     [
-	    {
-	        "filename": "tilemill.html",
-	        "attr": {
-	            "data-background": "images/bg13.png"
-	        }
-	    },
-	    {
-	        "filename": "tilemill-2.html",
-	        "attr": {
-	            "data-background": "images/bg13.png",
-	            "data-state": "collapse-progress"
-	        }
-	    }
-	],
-    {
-        "filename": "hosting.html",
-        "attr": {
-            "data-background": "images/bg14.jpg"
+        {
+            "filename": "tilemill.html",
+            "attr": {
+                "data-background": "images/bg13.png"
+            }
+        },
+        {
+            "filename": "tilemill-2.html",
+            "attr": {
+                "data-background": "images/bg13.png",
+                "data-state": "collapse-progress"
+            }
         }
-    },
+    ],
+    [
+        {
+            "filename": "hosting.html",
+            "attr": {
+                "data-background": "images/bg14.jpg"
+            }
+        },
+        {
+            "filename": "tilestream-intro.html",
+            "attr": {
+                "data-background": "images/bg14.jpg"
+            }
+        },
+        {
+            "filename": "tilestream.html",
+            "attr": {
+                "data-background": "images/bg14.jpg",
+                "data-state": "collapse-progress"
+            }
+        },
+        {
+            "filename": "cartodb-intro.html",
+            "attr": {
+                "data-background": "images/bg14.jpg"
+            }
+        },
+        {
+            "filename": "cartodb.html",
+            "attr": {
+                "data-background": "images/bg14.jpg",
+                "data-state": "collapse-progress"
+            }
+        },
+        {
+            "filename": "mapbox-intro.html",
+            "attr": {
+                "data-background": "images/bg14.jpg"
+            }
+        },
+        {
+            "filename": "mapbox.html",
+            "attr": {
+                "data-background": "images/bg14.jpg",
+                "data-state": "collapse-progress"
+            }
+        }
+    ],
     {
         "filename": "drupal-mapping-modules.html",
         "attr": {
@@ -129,5 +170,7 @@
         "attr": {
             "data-background": "images/bg16.jpg"
         }
-    }
+    },
+    "mapbox-intro.html",
+    "mapbox.html"
 ]
